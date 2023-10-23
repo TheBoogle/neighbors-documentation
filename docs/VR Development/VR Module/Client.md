@@ -2,7 +2,7 @@
 [CFrame]: https://create.roblox.com/docs/reference/engine/datatypes/CFrame 
 [Vector3]: https://create.roblox.com/docs/reference/engine/datatypes/Vector3 
 # Client
-
+!!! info end "The VR client module is located in `game.ReplicatedStorage.Modules.VR`"
 
 ## `:GetHandPosition(` [`UserCFrame`][UserCFrame] `) → `[`Vector3`][Vector3]
 Returns the position of a [UserCFrame][UserCFrame]
@@ -13,7 +13,7 @@ Returns the position of a [UserCFrame][UserCFrame]
 ### Returns
 * [`Vector3`][Vector3]
 
-???+ example end
+???+ example end "Example Usage"
 
     ```lua
     local ReplicatedStorage = game:GetService("ReplicatedStorage")
@@ -31,7 +31,7 @@ Returns the velocity vector of any of the controllers. This function is often us
 ### Returns
 * [`Vector3`][Vector3]
 
-???+ example end
+???+ example end "Example Usage"
     ```lua
     local ReplicatedStorage = game:GetService("ReplicatedStorage")
     local VRModule = require(ReplicatedStorage.Modules.VR)
@@ -48,7 +48,7 @@ Converts a world position to a position relative to the camera (head).
 ### Returns
 * [`CFrame`][CFrame]
 
-???+ example end
+???+ example end "Example Usage"
     ```lua
     local ReplicatedStorage = game:GetService("ReplicatedStorage")
     local VRModule = require(ReplicatedStorage.Modules.VR)
