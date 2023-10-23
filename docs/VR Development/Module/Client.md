@@ -4,7 +4,7 @@
 # Client
 !!! info end "The VR client module is located in `game.ReplicatedStorage.Modules.VR`"
 
-## `:GetHandPosition(` [`UserCFrame`][UserCFrame] `) → `[`Vector3`][Vector3]
+## `:GetHandPosition(`[`UserCFrame`][UserCFrame]`) → `[`Vector3`][Vector3]
 Returns the position of a [UserCFrame][UserCFrame]
 
 ### Parameters
@@ -22,7 +22,7 @@ Returns the position of a [UserCFrame][UserCFrame]
     local HandPosition = VRModule:GetHandPosition(Enum.UserCFrame.Head)
     ```
 
-## `:GetHandVelocity(` [`UserCFrame`][UserCFrame] `) → `[`Vector3`][Vector3]
+## `:GetHandVelocity(`[`UserCFrame`][UserCFrame]`) → `[`Vector3`][Vector3]
 Returns the velocity vector of any of the controllers. This function is often used when adding VR support to tools.
 
 ### Parameters
@@ -39,7 +39,7 @@ Returns the velocity vector of any of the controllers. This function is often us
     local HandVelocity = VRModule:GetHandVelocity(Enum.UserCFrame.Head)
     ```
 
-## `:GetRelativeVectorToHead(` [`Vector3`][Vector3]`) → ` [`CFrame`][CFrame]
+## `:GetRelativeVectorToHead(`[`Vector3`][Vector3]`) → `[`CFrame`][CFrame]
 Converts a world position to a position relative to the camera (head).
 
 ### Parameters

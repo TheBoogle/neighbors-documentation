@@ -1,10 +1,16 @@
 site_name: Neighbors Documentation
 theme:
   name: material
+  logo: assets/logo.png
+  palette:
+    scheme: slate
+    primary: black
   features:
     - content.code.annotate
     - content.code.copy
     - navigation.expand
+    - navigation.instant
+    - navigation.tabs
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
