@@ -6,7 +6,7 @@
 [Table]: https://create.roblox.com/docs/luau/tables
 [nil]: https://create.roblox.com/docs/luau/nil
 
-# Server
+# VR Server
 !!! info end "The VR server module is located in `game.ServerStorage.Modules.VR`"
 
 
@@ -61,7 +61,7 @@ Runs the callback function when the user swings their arm or arms in a certain d
 * [`Callback`][Function]
 
 ### Returns
-*  [<span style="color:darkred"> `nil` </span>][nil]
+*  [<span style="color:Tomato"> `nil` </span>][nil]
 
 ???+ example end "Check the following tools for examples"
     * Slap

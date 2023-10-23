@@ -1,7 +1,7 @@
 [UserCFrame]: https://create.roblox.com/docs/reference/engine/enums/UserCFrame
 [CFrame]: https://create.roblox.com/docs/reference/engine/datatypes/CFrame 
 [Vector3]: https://create.roblox.com/docs/reference/engine/datatypes/Vector3 
-# Client
+# VR Client
 !!! info end "The VR client module is located in `game.ReplicatedStorage.Modules.VR`"
 
 ## `:GetHandPosition(`[`UserCFrame`][UserCFrame]`) → `[`Vector3`][Vector3]
