@@ -1,10 +1,10 @@
-Roblox [Attributes](https://create.roblox.com/docs/studio/instance-attributes)
+Roblox [Attributes](https://create.roblox.com/docs/studio/instance-attributes).
 
 # Player
 Attributes put inside the Player Instance.
 
 !!! warning end
-    Not all are listed!
+    **Not all are listed!**
 
 
 ## `AllowPartyInvitesFromAll`
@@ -20,7 +20,7 @@ Player allows party invites from non-friends.
 **Type:** `number`
 
 ##### Description
-Profile Bio picture image ID
+Profile Bio picture image ID.
 
 
 ## `BGDeco`
@@ -161,7 +161,7 @@ Whether the Player has infinite skips.
 Something for the 17+ game. Drunk Effect.
 
 !!! note end
-    Expected values are ``0`` to ``1``.
+    Expected values are ``0`` up to ``1``.
 
 
 ## `LastReward`
@@ -169,9 +169,6 @@ Something for the 17+ game. Drunk Effect.
 
 ##### Description
 A Player's last daily reward redeem.
-
-!!! note end
-    Expected values are ``0`` to ``1``.
 
 Another attribute with similar purpose would be ``LastSantaVisit``.
 
@@ -278,8 +275,7 @@ Whether the Player can be affected by Tools. *(you may find some tools just to w
 
 Player's that have this on ``true`` can be identified based on their nametag.
 
-
-![Protected Name Tag](/assets/dev_docs/protected_value_nametag.png)
+![Protected Name Tag](../assets/dev_docs/protected_value_nametag.png)
 
 
 
@@ -295,26 +291,26 @@ Player's that have this on ``true`` can be identified based on their nametag.
 ## `ShowOwnTag`
 **Type:** `boolean`
 
-!! note end
+!!! note end
     I forgor a little bit and unsure if client will make this show only, or if set by server
 
 
 ## `ShowProfileOnSpawn`
 **Type:** `boolean`
 
-!! note end
+!!! note end
     Why are all settings in the Player's Attributes
 
 ## `ShowTitle`
 **Type:** `boolean`
 
-!! note end
+!!! note end
     Does this even work?
 
 
 ## `Special`
 **Type:** `boolean`
-!! note end
+!!! note end
     No clue what this is
 
 ## `Spins`
@@ -340,7 +336,7 @@ A ***client-side*** based *control* for the Player. This is used to manage the b
 <th>Description</th>
 <tr>
     <td>1</td>
-    <td>Idle *(No Activity)*</td>
+    <td>Idle <i>(No Activity)</i></td>
     <td>Player sees the loading screen and is not in any queue.</td>
 </tr>
 <tr>
@@ -366,7 +362,7 @@ The daily reward Streak. Not claiming a Daily Reward, would reset the daily rewa
 ## `StreamerMode`
 **Type:** `boolean`
 
-!! note end
+!!! note end
     I think just hides leaderboard
 
 
@@ -386,28 +382,28 @@ A representation of the current string.
 ## `UpToDate`
 **Type:** `boolean`
 
-!! note end
+!!! note end
     checks your Windows Updates (no)
 
 
 ## `UseMasculineTitles`
 **Type:** `boolean`
 
-!! note end
+!!! note end
     have not experimented
 
 
 ## `VCOnly`
 **Type:** `boolean`
 
-!! note end
+!!! note end
     ????
 
 
 ## `VCOnly2`
 **Type:** `boolean`
 
-!! note end
+!!! note end
     ????
 
 

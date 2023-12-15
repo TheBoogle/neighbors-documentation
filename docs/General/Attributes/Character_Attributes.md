@@ -38,7 +38,7 @@ Combining this with ``Ragdoll``, causes Ragdoll with no character control.
 ## `BoogieBombDancing`
 **Type:** `boolean`
 ##### Description
-Whether is Boogie Bomb Dancing. (This disabled inventory access if ``true``)
+Whether is Boogie Bomb Dancing. (This disables inventory access if ``true``)
 
 
 ## `GrowthScale`

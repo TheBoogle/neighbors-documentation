@@ -1,4 +1,8 @@
 site_name: Neighbors Documentation
+
+repo_name: Neighbors Documentation
+repo_url: https://github.com/TheBoogle/neighbors-documentation
+
 theme:
   name: material
   logo: assets/logo.png
