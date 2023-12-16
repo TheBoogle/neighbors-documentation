@@ -66,6 +66,8 @@ Carried disables
 Type of Carry. Present on the player that is being carried.<br>
 Used to handle what happens after a carry. Can be ``nil``.
 
+Named after Module scripts, located in a folder at ``ServerStorage.Modules.Tools.Carry.Types``.
+
 ##### Types
 * Default *(Carry)*
 * Handcuffs
