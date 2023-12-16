@@ -157,11 +157,21 @@ Whether the Player has infinite skips.
 
 
 ## `Intoxication`
+**Type:** ``number``
 ##### Description
 Something for the 17+ game. Drunk Effect.
 
 !!! note end
     Expected values are ``0`` up to ``1``.
+
+
+## `Invisible`
+**Type:** ``boolean``
+##### Description
+If ``true`` hides nametag.
+
+!!! note end
+    Unsure.
 
 
 ## `LastReward`
