@@ -1,7 +1,10 @@
 site_name: Neighbors Documentation
+site_url: https://theboogle.github.io/neighbors-documentation/
 
 repo_name: Neighbors Documentation
 repo_url: https://github.com/TheBoogle/neighbors-documentation
+
+base_url: /neighbors-documentation/
 
 theme:
   name: material

@@ -275,7 +275,7 @@ Whether the Player can be affected by Tools. *(you may find some tools just to w
 
 Player's that have this on ``true`` can be identified based on their nametag.
 
-![Protected Name Tag](../assets/dev_docs/protected_value_nametag.png)
+![Protected Name Tag](/neighbors-documentation/assets/dev_docs/protected_value_nametag.png)
 
 
 
