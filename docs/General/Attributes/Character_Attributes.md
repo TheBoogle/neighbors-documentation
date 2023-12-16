@@ -33,12 +33,61 @@ Combining this with ``Ragdoll``, causes Ragdoll with no character control.
 **Type:** `number`
 
 
+<hr></hr>
+
+
+## `Blinded`
+**Type:** `boolean`
+##### Description
+Whether is Blinded.
 
 
 ## `BoogieBombDancing`
 **Type:** `boolean`
 ##### Description
 Whether is Boogie Bomb Dancing. (This disables inventory access if ``true``)
+
+
+## `Carried`
+**Type:** `string`
+##### Description
+This is present on a player character that is being carried *(e.g. Handcuffs)*. It holds the username of the player that is carrying someone.<br>
+Carried disables 
+
+
+!!! note end
+    If they're no longer being carried, it just goes to ``false``, which is not good.<br>
+    Changes something with collisions, removing them all somehow.
+
+
+## `CarriedType`
+**Type:** `string`
+##### Description
+Type of Carry. Present on the player that is being carried.<br>
+Used to handle what happens after a carry. Can be ``nil``.
+
+##### Types
+* Default *(Carry)*
+* Handcuffs
+* Shoulder
+* Throw
+* Choke *(Superhuman Grab)*
+* Pitchfork
+
+
+## `Carrying`
+**Type:** `boolean`
+##### Description
+This is present on a player character that is carrying another player *(e.g. with Handcuffs)*.
+
+!!! note end
+    Sometimes this is a string, but aslong it's not any ``false``, it should return ``true``.
+
+
+## `FrozenTool`
+**Type:** `boolean`
+##### Description
+Whether a Player is frozen or not. If on ``true`` player can't be re-frozen or lasso'd.
 
 
 ## `GrowthScale`
@@ -48,11 +97,30 @@ Whether is Boogie Bomb Dancing. (This disables inventory access if ``true``)
     Breaks the track of the scale if you change this anyways.
 
 
+
+## `Jitter`
+**Type:** `boolean`
+##### Description
+Whether tased or not. If ``true`` prevents from being tased again.
+
+
+
 ## `Network`
 **Type:** `string`
+##### Description
+The current person that is controlling this Player's network.<br>
+Points to the player that is currently having **Network Ownership** the specific character.
 
 !!! note end
-    idk, but when I change it, it changes itself back
+    This attribute is most likely controlled by a script that is overwatching it.
+
+
+## `Tied`
+**Type:** `boolean`
+##### Description
+Whether the character is tied. If ``true`` inventory access is disabled.<br>
+Related to the *Lasso Tool*.
+
 
 ## `PropMorphed`
 **Type:** `boolean`
