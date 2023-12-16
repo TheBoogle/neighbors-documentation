@@ -43,7 +43,7 @@ Player Credits.
 
 ##### Description
 Contains the name of the Player's current *Place*. Can be used to find out where a Player's current queued house is at.
-<br>If the Player isn't in a house *(e.g. soloqueued or other modifications)* it will be ``nil``.
+<br>If the Player isn't in a house *(e.g. soloqueued, in-queue or other modifications)* it will be ``nil``.
 
 !!! info end
     Changing this value ***only*** for the **Client** will load the props inside a house.<br>
