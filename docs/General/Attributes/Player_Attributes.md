@@ -47,7 +47,7 @@ Contains the name of the Player's current *Place*. Can be used to find out where
 
 !!! info end
     Changing this value ***only*** for the **Client** will load the props inside a house.<br>
-    Changing this value on the **Server** will change the **State** attribute, which resets the player.
+    Changing this value on the **Server** will change the house the player is *supposed* to be in. If the player is not exempt from the anti-cheat, they will be reset.
 
 !!! warning end
     Can be ``nil``, in this case empty string ``""``.
