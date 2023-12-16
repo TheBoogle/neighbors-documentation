@@ -36,6 +36,14 @@ Combining this with ``Ragdoll``, causes Ragdoll with no character control.
 <hr></hr>
 
 
+## `BarberKey`
+**Type:** `number`
+##### Description
+!!! note end
+    Probably not such a good way.<br>
+    This value is for the cut duration. If you'd use the Hair Clipper on someone. BarberKey goes on 1. After 2 minutes it will check if BarberKey is on 1, and then restore the original hats. But if it's not, it means someone updated it.
+
+
 ## `Blinded`
 **Type:** `boolean`
 ##### Description
