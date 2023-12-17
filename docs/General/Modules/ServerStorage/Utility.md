@@ -3,7 +3,7 @@
     ``game.ServerStorage.Modules.Utility``
 
 
-## `:PickRandomWeighted(`[`table`][table]` chances)`
+## `:PickRandomWeighted(chances: {})`
 
 Picks a random weighted value from a given table.
 
