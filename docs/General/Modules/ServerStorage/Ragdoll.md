@@ -5,12 +5,12 @@
 
 ## `:Trip(plyChar: Model)`
 !!! info end
-    Unsure about its function.
+    Unsure about its function. Could be Tripping and Ragdolling the player.
 
 
 ## `:RemoveRagdoll(plyChar: Model)`
 !!! info end
-    Unsure about its function.
+    Unsure about its function. Probably un-does the ragdoll.
 
 
 ## `:RigPlayer(plyChar: Model)`
