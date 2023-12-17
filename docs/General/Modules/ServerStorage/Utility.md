@@ -14,10 +14,10 @@
 ## `:ChangeStat(instance: Instance, attrName: string, attrValue)`
 Utility to change Attribute values on things.
 
-### Params
-* instance: What to change it to
-* attrName: Attribute name
-* attrValue: What to set the value to
+### Parameters
+* ``instance``: What thing should be changed
+* ``attrName``: Attribute name
+* ``attrValue``: What to set the value to
 
 
 ## `:PickRandomWeighted(chances: {})`
