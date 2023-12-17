@@ -3,6 +3,23 @@
     ``game.ServerStorage.Modules.Utility``
 
 
+## `:CanPlayerUseTool(ply: Player, plyChar: Model)`
+!!! info end
+    Unsure
+
+### Returns
+* ``boolean``
+
+
+## `:ChangeStat(instance: Instance, attrName: string, attrValue)`
+Utility to change Attribute values on things.
+
+### Params
+* instance: What to change it to
+* attrName: Attribute name
+* attrValue: What to set the value to
+
+
 ## `:PickRandomWeighted(chances: {})`
 
 Picks a random weighted value from a given table.
