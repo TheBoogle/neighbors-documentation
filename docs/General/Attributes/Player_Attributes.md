@@ -87,6 +87,10 @@ Whether a Player has Party Invites enabled or not.
     Someone use CTRL + F in Studio and look for ``"Disabled"`` and lemme know
 
 
+## `DoubleStar`
+**Type:** `boolean`
+
+
 ## `EightBitPack`
 !!! warning end
     If more Packs are added, the Attributes of the Player will be doomed.<br>
