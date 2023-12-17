@@ -107,6 +107,15 @@ Whether a Player is frozen or not. If on ``true`` player can't be re-frozen or l
     Breaks the track of the scale if you change this anyways.
 
 
+## `Immune`
+**Type:** `boolean`
+
+## `InActivity`
+**Type:** `boolean`
+##### Description
+If the player character is in an activity, like "Arm Wrestle".<br>
+If ``true``, this will hide the Skip buttons and other Activity prompts.
+
 
 ## `Jitter`
 **Type:** `boolean`
@@ -136,4 +145,7 @@ Related to the *Lasso Tool*.
 **Type:** `boolean`
 
 ## `PropVisibility`
+**Type:** `boolean`
+
+## `VR`
 **Type:** `boolean`
