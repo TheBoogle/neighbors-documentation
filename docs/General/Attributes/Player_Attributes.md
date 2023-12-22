@@ -119,6 +119,12 @@ Gamepass.
 Whether the Player joined for the first time. Probably for the tutorial on the buttons.
 
 
+
+## `Friend`
+**Type:** `boolean`
+
+
+
 ## `HideGraffiti`
 **Type:** `boolean`
 
