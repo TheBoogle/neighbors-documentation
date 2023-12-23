@@ -3,9 +3,11 @@
     ``game.ServerStorage.Modules.Ragdoll``
 
 
-## `:Trip(plyChar: Model)`
+## `:SetRagdoll(plyChar: Model, enabled, dur, tripReal)`
+
+## `:Trip(plyChar: Model, duration)`
 !!! info end
-    Unsure about its function. Could be Tripping and Ragdolling the player.
+    Calls :SetRagdoll(), sounds like a preset function
 
 
 ## `:RemoveRagdoll(plyChar: Model)`
