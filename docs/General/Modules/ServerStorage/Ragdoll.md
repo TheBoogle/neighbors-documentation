@@ -15,6 +15,11 @@
     Unsure about its function. Probably un-does the ragdoll.
 
 
+## `:Clear(plyChar: Model)`
+!!! info end
+    Unsure
+
+
 ## `:RigPlayer(plyChar: Model)`
 !!! info end
     Unsure about its function. Assuming it creates a Rig for the Ragdoll.
