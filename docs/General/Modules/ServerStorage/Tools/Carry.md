@@ -49,7 +49,7 @@ Seems to be responsible for dropping. Each carry type has another ``:Drop`` func
 ## ``:FindVictimAndDrop(bullyChar, forced, ...)``
 A combined function that uses ``:GetVictimFromCharacter`` and ``:Drop``.
 
-## ``:FindBullyAndDrop(victimChar)``
+## ``:FindBullyAndDrop(victimChar, forced, ...)``
 A combined function that uses ``:GetBullyFromCharacter`` and ``:Drop``.
 
 
