@@ -307,6 +307,9 @@ Player's that have this on ``true`` can be identified based on their nametag.
     Reserved
 
 
+## `Safezone`
+**Type:** `boolean`
+
 
 ## `ShowOwnTag`
 **Type:** `boolean`
