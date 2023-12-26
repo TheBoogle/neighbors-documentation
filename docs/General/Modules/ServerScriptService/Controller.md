@@ -149,3 +149,8 @@ When a player leaves the game, their spawn gets made available.
 Registers a character and puts the player in Idle state.<br>
 
 When ``PlayerAdded`` this function gets called when ``CharacterAdded`` then gets invoked.
+
+
+## ``:GetPlayersDataTable()``
+### Returns
+* A table with every player's data about the controller.
