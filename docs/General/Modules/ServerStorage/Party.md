@@ -1,13 +1,27 @@
-# Prompt
+# Party
 !!! info end
-    ``game.ServerStorage.Modules.Prompt``
+    ``game.ServerStorage.Modules.Party``
 
-This Module uses a Network event named ``Prompt``.
+A Module that does most of the Party system.
 
-All of the prompts might just be purple though...
 
-## ``:Prompt(ply: Player, title, msg, duration, autoshow: boolean)``
-Sends one of those prompts at the top of someone's screen, e.g. Party Invites.
-
+## ``:IsPlayerLeader(ply: Player)``
+Whether the player is the party leader.
 ### Returns
-* Result from ``Network:invoke`` which triggers a RemoteFunction.
+* ``boolean``
+
+
+## ``:ChangePartyLeader(currentLeader: Player, newLeader: Player)``
+Changes the Party Leader. This also changes the ``PartyId`` attribute.<br>
+The ``PartyId`` is a Player's UserId.
+
+
+## ``:GetPartySize(partyId)``
+Gets the party size...
+### Returns
+* ``number``
+
+## ``:DoesPlayerBelongToParty(ply: Player)``
+If the Player has not PartyId attribute, it would return ``false``.
+### Returns
+* ``boolean``
