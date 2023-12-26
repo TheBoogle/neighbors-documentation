@@ -7,6 +7,8 @@
 # Network Client
 !!! info end "The Network client module is located in `game.ReplicatedStorage.Modules.Network`"
 
+Unlike on the Server's Module. This one doesn't have a Folder.
+
 ## `:fire(`[`string`][string]`...)`
 Fires an event to the server
 

@@ -8,6 +8,9 @@
 # Network Server
 !!! info end "The Network server module is located in `game.ServerStorage.Modules.Network`"
 
+A Folder inside ``ReplicatedStorage`` gets created, named "Events". These have generated UUID names...
+
+
 ## `:fire(`[`String`][String][`Player`][Player]`...)`
 Fires an event to the specified client
 
