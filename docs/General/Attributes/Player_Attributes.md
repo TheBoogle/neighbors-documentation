@@ -265,6 +265,11 @@ Whether Player has access to the Outfit Selector Gamepass.
 
 
 
+## `PartyId`
+**Type:** `number`
+#### Description
+The PartyId the player is in. Which is someone's UserId, e.g. the Party Leader.
+
 ## `PlayerInvites`
 **Type:** `number`
 
