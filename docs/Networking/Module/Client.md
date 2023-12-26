@@ -46,3 +46,6 @@ Invokes an event on the server
 
     local Result = Network:invoke("ExampleEvent", "ExampleParameter", "AnotherParameter")
     ```
+
+
+## ``:listen(event_name: string, callback: (...any) -> ...any)``
