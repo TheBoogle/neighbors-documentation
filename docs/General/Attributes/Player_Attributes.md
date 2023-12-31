@@ -7,6 +7,13 @@ Attributes put inside the Player Instance.
     **Not all are listed!**
 
 
+## `AdminSpectating`
+**Type:** `boolean`
+##### Description
+A tweak to unforce your camera to be at places if set to ``true``.<br>
+A client-side based attribute.
+
+
 ## `AllowPartyInvitesFromAll`
 **Type:** `boolean`
 ##### Description
