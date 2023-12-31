@@ -62,7 +62,7 @@ Whether the player accepts party invites. Gets the ``DisablePartyInvites`` attri
 ### Returns
 * ``boolean``
 
-## ``::GetPartyMembers(ply: Player)``
+## ``:GetPartyMembers(ply: Player)``
 Returns the a table with players that are members of the player's party.
 ### Returns
 * ``table: {Player}``
