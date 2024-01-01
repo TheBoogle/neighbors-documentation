@@ -14,4 +14,4 @@ The target player receives a prompt. The player can then click on the notificati
 If they click on "Yes", it will return ``true``.
 
 ### Returns
-* Result from ``Network:invoke`` which triggers a RemoteFunction.
+* Result from ``Network:invoke`` which triggers a ``RemoteFunction``.
