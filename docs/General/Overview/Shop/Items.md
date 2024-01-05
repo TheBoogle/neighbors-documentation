@@ -35,7 +35,7 @@ There's an exported type in the ModuleScript, that aids in creating a new item.
     ```
 
 
-The table key should match the actual name of the item inside ``game.ServerStorage.Assets.Tools``.
+The table key should match the actual name of the Tool inside ``game.ServerStorage.Assets.Tools``.
 
 ???+ example end
     Here's an example:
