@@ -98,6 +98,20 @@ Whether a Player has Party Invites enabled or not.
 **Type:** `boolean`
 
 
+## `ExemptFromAntiCheat`
+**Type:** `boolean`
+
+##### Description
+Whether a player's anti-cheat is disabled.
+
+
+## `ExemptFromGrass`
+**Type:** `boolean`
+
+##### Description
+Whether a player can walk on grass.
+
+
 ## `EightBitPack`
 !!! warning end
     If more Packs are added, the Attributes of the Player will be doomed.<br>
