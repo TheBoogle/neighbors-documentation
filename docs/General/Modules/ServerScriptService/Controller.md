@@ -13,6 +13,15 @@ This Module controls how things work in the Neighbors gamemode. e.g. setting sta
 * The players data table stored by the Controller. The data the Controller uses to process things.
 
 
+## ``:MatchPlayerPairTogether()``
+Matches two players together and reserves a house. This is also ran by ``:Run()``.
+
+
+## ``:SendPlayerGroupPairToPlace(place: Model, group1, group2)``
+Sends groups to a House. This doesn't reserve a place or set it active.
+
+
+
 ## ``:SetState(ply: Player, state, force: boolean)``
 Sets a Player's State, which also modifies the Player Attribute ``State``.
 
