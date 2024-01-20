@@ -81,10 +81,10 @@ Gets Party Members that match provided state.
 * ``table: {Player}``
 
 
-## ``:GetPartyMembersMatched(ply: Player)``
+## ``:GetPartyMembers_Matched(ply: Player)``
 Preset function that does ``:GetPartyMembersOfState(ply, 3)``
 
-## ``:GetPartyMembersQueued(ply: Player)``
+## ``:GetPartyMembers_Queued(ply: Player)``
 Preset function that does ``:GetPartyMembersOfState(ply, 2)``
 
 
