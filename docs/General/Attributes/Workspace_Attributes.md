@@ -2,7 +2,7 @@
 Attributes set directly in Workspace.
 
 !!! warning end
-    Not all are listed, and NOT all of them are available at the beginning.
+    Not all of them might be listed, and NOT all of them are available at the beginning.
 
 
 ## `PlaceLoaded`
