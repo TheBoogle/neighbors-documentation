@@ -8,6 +8,11 @@ This Module controls how things work in the Neighbors gamemode. e.g. setting sta
     When this Module finished loading. The Workspace's Attribute ``PlaceLoaded`` gets set to ``true``.
 
 
+## ``:GetControllerPlayersDataTable()``
+### Returns
+* The players data table stored by the Controller. The data the Controller uses to process things.
+
+
 ## ``:SetState(ply: Player, state, force: boolean)``
 Sets a Player's State, which also modifies the Player Attribute ``State``.
 
